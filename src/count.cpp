@@ -13,10 +13,13 @@ NOTES:
 */
 int count(int num1, int num2) {
 	int c, l ;
-	if (num1 < num2)
+	if (num1>0)
 	{
-		for (c = 0,l=num1; l <= num2; l += num1)
-			c++;
+		if (num1 < num2)
+			for (c = 0, l = num1; l <= num2; l += num1)
+				c++;
+		else
+			return 0;
 	}
 	else
 		return -1;

@@ -38,7 +38,7 @@ int main(){
 	printf("after swaping %d %d\n", a, b);
 
 	//Is Older 
-	char date1[20] = "29-02-2004";
+	char date1[20] = "15-0A-2000";
 	char date2[20] = "29-02-2000";
 	int check=isOlder(date1, date2);
 	if (check == 0){
